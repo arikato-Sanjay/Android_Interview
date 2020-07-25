@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/frontPage_layout"
+
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/simpleQuestionB"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_change"
+        android:text="@string/simplequestion"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/toughQuestionB"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/simpleQuestionB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_change"
+        android:text="@string/toughquestions"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/otherAppsB"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/toughQuestionB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_change"
+        android:text="@string/otherapps"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/rateOurB"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/otherAppsB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_change"
+        android:text="@string/rate"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+</RelativeLayout>

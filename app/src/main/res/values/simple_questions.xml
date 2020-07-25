@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_question">
+        <item>What is Android?</item>
+        <item>Describe Android application Architecture?</item>
+        <item>What is An Activity?</item>
+        <item>What is the APK format?</item>
+        <item>What is An Intent?</item>
+        <item>What is an explicit Intent?</item>
+        <item>What is an implicit Intent?</item>
+        <item>What is An android manifest file?</item>
+        <item>What language does android support to develop an application?</item>
+        <item>What do ADT stands for?</item>
+        <item>What are the tools are placed in An Android SDK?</item>
+        <item>What is viewGroup in android?</item>
+        <item>What is a service in android?</item>
+        <item>What is a content provider in android?</item>
+        <item>What are the notifications available in android?</item>
+        <item>What is container in android?</item>
+        <item>What is ADB in android?</item>
+        <item>What is ANR in android?</item>
+        <item>What is an Adapter in android?</item>
+        <item>What is shared preferences in android?</item>
+    </string-array>
+</resources>

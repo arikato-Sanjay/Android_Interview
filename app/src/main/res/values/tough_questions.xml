@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_question">
+        <item>What are the key components in android architecture?</item>
+        <item>What are application Widgets in android?</item>
+        <item>What are the life cycle methods of android activity?</item>
+        <item>Why can’t you run standard Java bytecode on Android?</item>
+        <item>What is the difference between a regular .png and a nine-patch image?</item>
+        <item>How do you supply construction arguments into a Fragment?</item>
+        <item>How can two Android applications share same Linux user ID and share same VM?</item>
+        <item>What is difference between Serializable and Parcelable ? Which is best approach in Android ?</item>
+        <item>Is it possible to create an activity in Android without a user interface ?</item>
+        <item>What is a broadcast receiver?</item>
+        <item>What is an Intent? Can it be used to provide data to a ContentProvider? Why or why not?</item>
+        <item>What is DDMS? Describe some of its capabilities.</item>
+        <item>Describe three common use cases for using an Intent.</item>
+        <item>Can Android applications only be programmed in Java?</item>
+        <item>How can ANR be prevented?</item>
+        <item>Write a quick script for launching a new activity within your application.</item>
+        <item>What is SQLite? How does it differ from client-server database management systems?</item>
+    </string-array>
+</resources>

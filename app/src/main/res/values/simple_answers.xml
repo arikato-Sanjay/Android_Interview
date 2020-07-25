@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_answer">
+        <item>Android is a stack of software for mobile devices which includes an Operating System, middleware and some key applications. The application executes within its own process and its own instance of Dalvik Virtual Machine.</item>
+        <item>
+              Android application architecture has the following components.They are as follows −
+              Services − It will perform background functionalities
+              Intent − It will perform the inter connection between activities and the data passing mechanism
+              Resource Externalization − strings and graphics
+              Notification − light,sound,icon,notification,dialog box,and toast
+              Content Providers − It will share the data between applications
+        </item>
+        <item>Activity performs actions on the screen.If you want to do any operations, we can do with activity</item>
+        <item>The Android packaging key is compressed with classes,UI\'s, supportive assets and manifest.All files are compressed to a single file is called APK.</item>
+        <item>It is connected to either the external world of application or internal world of application ,Such as, opening a pdf is an intent and connect to the web browser.etc.</item>
+        <item>Android Explicit intent specifies the component to be invoked from activity. In other words, we can call another activity in android by explicit intent.</item>
+        <item>Implicit Intent doesn\'t specifiy the component. In such case, intent provides information of available components provided by the system that is to be invoked.</item>
+        <item>Every application must have an AndroidManifest.xml file (with precisely that name) in its root directory. The manifest file presents essential information about your app to the Android system, information the system must have before it can run any of the app\'s code.</item>
+        <item>Android applications has written using the java(Android SDK) and C/C++(Android NDK).</item>
+        <item>ADT stands for Android development tool,This is useful to develop the applications and test the applications.</item>
+        <item>Android SDK collaborated with Android Emulator,DDMS(Dalvik Debug Monitoring Services),AAPT(Android Asset Packaging tool) and ADB(Android debug bridge)</item>
+        <item>View group is a collection of views and other child views, it is an invisible part and the base class for layouts.</item>
+        <item>The Service is like as an activity to do background functionalities without UI interaction.</item>
+        <item>A content provider component supplies data from one application to others on request. Such requests are handled by the methods of the ContentResolver class. A content provider can use different ways to store its data and the data can be stored in a database, in files, or even over a network.</item>
+        <item>
+              Toast Notification − It will show a pop up message on the surface of the window
+              Status Bar Notification − It will show notifications on status bar
+              Dialogue Notification − It is an activity related notification.
+        </item>
+        <item>The container holds objects,widgets,labels,fields,icons,buttons.etc.</item>
+        <item>It is acts as bridge between emulator and IDE, it executes remote shell commands to run applications on an emulator</item>
+        <item>ANR stands for application is not responding, basically it is a dialog box that appears when the application is not responding.</item>
+        <item>The Adapter is used to create child views to represent the parent view items.</item>
+        <item>Shared preferences are the simplest mechanism to store the data in XML documents.</item>
+    </string-array>
+</resources>

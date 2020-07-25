@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/questions_llv"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        android:background="@drawable/topbottom"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/xxTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xx_tv"
+            android:textSize="10sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/yyTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            android:text="@string/yy_tv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="80"
+        android:background="@drawable/middle">
+
+        <TextView
+            android:id="@+id/questionsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:text="@string/questions_tv" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/answerTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textSize="10sp"
+                    android:textColor="#000000"
+                    android:text="@string/ans_tv" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:background="@drawable/topbottom"
+        android:gravity="center|center_horizontal">
+
+        <Button
+            android:id="@+id/backB"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/left"/>
+
+        <Button
+            android:id="@+id/answerB"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ansbutton_change"/>
+
+        <Button
+            android:id="@+id/forwardB"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/right"/>
+    </LinearLayout>
+
+</LinearLayout>

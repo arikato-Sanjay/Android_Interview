@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_answer">
+        <item>
+              Linux Kernel,
+              Libraries,
+              Android Framework,
+              Android applications.
+        </item>
+        <item>App Widgets are miniature application views that can embedded in other applications (such as the Home screen) and receive periodic updates. These views has referred to as Widgets in the user interface, and you can publish one with an App Widget provider.</item>
+        <item>
+              There are 7 life-cycle methods of activity. They are as follows:
+              onCreate(),
+              onStart(),
+              onResume(),
+              onPause(),
+              onStop(),
+              onRestart(),
+              onDestroy(),
+        </item>
+        <item>
+              Android does not use the traditional Java Virtual Machine. Instead, it uses Dalvik Virtual Machine that uses a special bytecode. That is why we cannot execute standard Java programs on an Android device. DVM is optimized for mobile devices. It optimizes the virtual machine for memory, performance and battery life. The applications that can run on Android are .apk files. It is a unique compiled code that stands for Android Package.
+              You can develop your code in Java. But you need to change the .jar files to .apk files before you can run your program in Android. The android tool called dx tool or the Dex compiler converts the Java class files into .dex files that can run on DVM. Android Assets Packaging Tool converts the .dex files in .apk files.
+        </item>
+        <item>A nine patch image is a stretchable bitmap image that can be used as a background of a view. Android automatically resizes the image to accommodate the content of the view. The nine patch image helps android in its goal to support a variety of different screen sizes. The main difference between a regular .png and nine patch image is that the latter includes an extra 1-pixel border around the image that determines where the image can be stretched to meet the specific layout constraints. The image can be divided into 9 sections. The 4 corners are static, the 4 edges are scaled in 1 axis and the center one can be scaled in both the axis. The extension of the nine patch images is .9.png.</item>
+        <item>In order to communicate from host activity to fragment, construction arguments are passed via Bundle. Setarguments(Bundle) is used to supply construction arguments for a fragment. Getarguments() is used to retrieve the arguments supplied to setarguments(bundle).</item>
+        <item>If two android applications require sharing same Linux user ID and same VM, they must sign with the same certificate. Android assigns a unique user ID to each application. If this attribute is set to the same value for 2 applications they will share the same ID.</item>
+        <item>
+              Serializable is a standard Java interface. You simply mark a class Serializable by implementing the interface, and Java will automatically serialize it in certain situations.
+              Parcelable is an Android specific interface where you implement the serialization yourself. It was created to be far more efficient than Serializable, and to get around some problems with the default Java serialization scheme.
+        </item>
+        <item>Yes, an activity can be created without any user interface. These activities are treated as abstract activities.</item>
+        <item>The broadcast receiver communicates with the operation system messages such as “check whether an internet connection is available,” what the battery label should be, etc.</item>
+        <item>
+              The Intent object is a common mechanism for starting new activity and transferring data from one activity to another. However, you cannot start a ContentProvider using an Intent.
+              When you want to access data in a ContentProvider, you must instead use the ContentResolver object in your application’s Context to communicate with the provider as a client. The ContentResolver object communicates with the provider object, an instance of a class that implements ContentProvider. The provider object receives data requests from clients, performs the requested action, and returns the results.
+        </item>
+        <item>
+              DDMS is the Dalvik Debug Monitor Server that ships with Android. It provides a wide array of debugging features including:
+              port-forwarding services
+              screen capture
+              thread and heap information
+              network traffic tracking
+              incoming call and SMS spoofing
+              simulating network state, speed, and latency
+              location data spoofing
+        </item>
+        <item>
+              Common use cases for using an Intent include:
+              To start an activity: You can start a new instance of an Activity by passing an Intent to startActivity() method.
+              To start a service: You can start a service to perform a one-time operation (such as download a file) by passing an Intent to startService().
+              To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent to sendBroadcast(), sendOrderedBroadcast(), or sendStickyBroadcast().
+        </item>
+        <item>No, not necessarily. We can program Android apps using the Native Development Kit (NDK) in C/C++. The NDK is a toolset that allows us to implement parts of our app using native code languages such as C and C++. Typically, good use cases for NDK are CPU-intensive applications such as game engines, signal processing, and physics simulation.</item>
+        <item>One technique that prevents the Android system from concluding a code that has been unresponsive for a long period of time is to create a child thread. Within the child thread, most of the actual tasks of the codes can be placed so that the main thread runs with minimal periods of unresponsive time</item>
+        <item>
+              The goal of this question is to quickly test their knowledge of explicit intent in launching an activity. An explicit intent explicitly defines the activity the developer wishes to start. A possible solution has been produced below.
+              Intent myIntent = new Intent(this, MyNewActivity.class);
+              startActivity(myIntent);
+        </item>
+        <item>SQLite is the open-source relational database of choice for Android applications. The SQLite engine is serverless, transactional, and self-contained. Instead of the typical client-server relationship of most database management systems, the SQLite engine is integrally linked with the application. The library can also be called dynamically, and makes use of simple function calls that reduce latency in database access.</item>
+    </string-array>
+</resources>
